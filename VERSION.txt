@@ -1,4 +1,4 @@
-AfroRitmara Version 009
+AfroRitmara Version 010
 Date: 2026-10-11
 Specified media, scheduler, and copy corrections from Version 008.
 Private & Events landing page image replaced with the requested video.
@@ -8,3 +8,7 @@ International landing page now uses the requested video and its six-second thumb
 Hospitality homepage and landing page use the 00:58 thumbnail and reset to it after playback.
 Terms effective date changed to 22 January 2024; acceptance includes scheduling and retainer, deposit, or reservation payments.
 Homepage International section now uses the same video and thumbnail as the International page.
+Hospitality MP4 re-encoded to H.264 after the live site's MPEG-4 Part 2 video caused audio-only playback; original AAC audio preserved.
+Floating booking menu now includes a small "Choose your option" label on every page.
+Each booking choice is styled as a distinct button with hover and keyboard-focus feedback.
+Version 010 packages every update above with the 21 MB H.264 Hospitality video.
