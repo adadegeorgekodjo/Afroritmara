@@ -1,0 +1,18 @@
+AFRORITMARA VERSION 009 — MEDIA SOURCES
+
+INTERNATIONAL
+Homepage and landing page video: assets/video/afroritmara-international-afro-latin-dance-performance-ghana.mp4
+Homepage and landing page thumbnail (frame at 00:06): assets/images/afroritmara-international-afro-latin-dance-performance-ghana-thumbnail.jpg
+
+HOSPITALITY
+Homepage and landing page: assets/video/video_2026-08-24_10-26-07.mp4
+Thumbnail (frame at 00:58): assets/images/afroritmara-hospitality-dance-entertainment-thumbnail-00-58.jpg
+
+PRIVATE & EVENTS
+Landing page main video: assets/video/AfroRitmara Private Events Booking best salsa in Ghana - Success what shakes the ground.mp4
+Landing page poster and social image: assets/images/private-events.jpg
+Homepage video: assets/video/AfroRitmara Private Events Booking best salsa in Ghana - Success what shakes the ground.mp4
+Poster: assets/images/private-video-poster.jpg
+
+PRIVATE LESSONS
+Landing page main image: assets/images/AfroRitmara Private Lessons Bachata, salsa, Kizomba in Accra Ghana best affordable dance classes.jpg

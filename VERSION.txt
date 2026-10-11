@@ -1,0 +1,10 @@
+AfroRitmara Version 009
+Date: 2026-10-11
+Specified media, scheduler, and copy corrections from Version 008.
+Private & Events landing page image replaced with the requested video.
+Existing video posters now show a centered play button before playback.
+Terms footer links now resolve in local previews; payment recipient matches the supplied terms.
+International landing page now uses the requested video and its six-second thumbnail.
+Hospitality homepage and landing page use the 00:58 thumbnail and reset to it after playback.
+Terms effective date changed to 22 January 2024; acceptance includes scheduling and retainer, deposit, or reservation payments.
+Homepage International section now uses the same video and thumbnail as the International page.
