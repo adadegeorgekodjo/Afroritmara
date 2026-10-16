@@ -33,17 +33,19 @@
 @media(max-width:540px){.vp-nav{min-height:57px}.vp-brand{font-size:26px}.vp-nav a:last-child{font-size:11px}.vp-hero{padding:15px 0 13px}.vp-hero h1{font-size:30px}.vp-hero p{font-size:13px}.vp-main{padding-top:12px}.vp-card,.vp-side{padding:18px}.vp-card h2{font-size:24px;margin-bottom:8px}.vp-label{margin-top:12px}.vp-copybox strong{font-size:18px}.vp-side{margin-top:0}}
 
 /* Compact two-step payment actions */
-.vp-phone-row{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap;margin-top:6px}
+.vp-phone-row{display:flex;align-items:center;justify-content:flex-start;gap:10px;flex-wrap:wrap;margin-top:6px}
 .vp-phone-row .vp-value{margin:0}
 .vp-step-note{font-size:13px;color:var(--muted);margin:7px 0 0}
 .vp-phone-row .vp-copy{min-height:44px;white-space:nowrap}
 /* Payment actions only */
 .vp-pay-actions{display:grid;gap:9px;margin-top:13px}
 .vp-pay-actions-title{font-weight:800;font-size:15px;letter-spacing:.01em;margin-bottom:1px}
-.vp-pay-action{appearance:none;display:flex;align-items:center;justify-content:center;width:100%;min-height:48px;padding:12px 15px;background:var(--ink);border:1px solid var(--ink);border-radius:8px;color:#fff;text-align:center;text-decoration:none;font:800 13px/1.35 'DM Sans',Arial,sans-serif;cursor:pointer}
+.vp-pay-action{appearance:none;display:flex;align-items:center;justify-content:center;width:80%;margin-inline:auto;min-height:48px;padding:12px 15px;background:var(--ink);border:1px solid var(--ink);border-radius:8px;color:#fff;text-align:center;text-decoration:none;font:800 13px/1.35 'DM Sans',Arial,sans-serif;cursor:pointer}
 .vp-pay-action:nth-of-type(2){background:var(--wine);border-color:var(--wine)}
 .vp-pay-copy{background:var(--champagne);border-color:var(--sand);color:var(--ink)}
-.vp-pay-action:hover{filter:brightness(1.12)}
+.vp-pay-action:hover{filter:brightness(1.12);transform:translateY(-1px)}
+.vp-pay-action:focus-visible,.vp-copy:focus-visible{outline:3px solid var(--gold);outline-offset:3px}
+.vp-pay-action::before{content:"↗";font-size:16px;margin-right:9px}
 .vp-sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
 </style>
 </head>
@@ -60,16 +62,16 @@
 <p class="vp-step-note">Step 1: Click here to copy phone number.</p>
 <div class="vp-pay-actions" aria-label="Payment actions">
   <div class="vp-pay-actions-title">Click Here to Pay</div>
-  <div class="vp-step-note">Step 2: Open the MTN dialer.</div>
-  <a class="vp-pay-action" href="tel:*171%23">MTN Merchant Account</a>
-  <a class="vp-pay-action" href="tel:*170%23">MTN Personal Account</a>
+  <div class="vp-step-note">Step 2: Choose which of your MTN accounts you want to pay from.</div>
+  <a class="vp-pay-action" href="tel:*171%23">Pay from your MTN Merchant Account</a>
+  <a class="vp-pay-action" href="tel:*170%23">Pay from your MTN Personal Account</a>
   <span id="copy-status" class="vp-sr-only" role="status" aria-live="polite"></span>
 </div>
 <div class="vp-label">Payment reference — required</div><div class="vp-value" style="font-size:18px">Your venue/event and service</div>
 <p class="vp-note">Enter your venue or event name and the booked service. Example: <strong>Paloma Hotel - Salsa Performance</strong>.</p>
 <div class="vp-label">Amount due</div><div class="vp-value" style="font-size:17px">As agreed in your booking or invoice</div>
 </section>
-<aside class="vp-side" aria-labelledby="steps-title"><div class="vp-kicker" style="color:#dbbd8d">02 / How to pay</div><h2 id="steps-title">Four simple steps.</h2><ol><li>Tap <strong>Copy Phone Number</strong> to save <strong>024 303 3213</strong> to your clipboard.</li><li>Tap the applicable <strong>MTN dialer</strong> button. If your phone only fills in the code, tap Call to open the MTN menu. Follow the prompts to pay and paste the number when asked.</li><li>Enter the agreed amount and include <span class="vp-emphasis">your venue/event and service</span> as the reference.</li><li>Check the displayed recipient name, approve the payment securely, and keep your confirmation.</li></ol><div class="vp-divider"></div><p>After paying, send your venue name, event date and transaction ID to the AfroRitmara team so we can match your payment to the booking.</p><p style="font-size:13px;color:#c7b9a8">Never share your Mobile Money PIN with us or anyone else.</p><a class="vp-btn" href="mailto:booking@afroritmara.com?subject=AfroRitmara%20Payment%20Confirmation">Send payment confirmation →</a></aside>
+<aside class="vp-side" aria-labelledby="steps-title"><div class="vp-kicker" style="color:#dbbd8d">02 / How to pay</div><h2 id="steps-title">Four simple steps.</h2><ol><li>Tap <strong>Copy Phone Number</strong> to save <strong>024 303 3213</strong> to your clipboard.</li><li>Choose the button for <strong>your own MTN Merchant or Personal Account</strong>. If your phone only fills in the code, tap Call to open the MTN menu. Follow the prompts to pay and paste the number when asked.</li><li>Enter the agreed amount and include <span class="vp-emphasis">your venue/event and service</span> as the reference.</li><li>Check the displayed recipient name, approve the payment securely, and keep your confirmation.</li></ol><div class="vp-divider"></div><p>After paying, send your venue name, event date and transaction ID to the AfroRitmara team so we can match your payment to the booking.</p><p style="font-size:13px;color:#c7b9a8">Never share your Mobile Money PIN with us or anyone else.</p><a class="vp-btn" href="mailto:booking@afroritmara.com?subject=AfroRitmara%20Payment%20Confirmation">Send payment confirmation →</a></aside>
 </div>
 <section class="vp-section" aria-labelledby="prep-title"><div class="vp-kicker">03 / Venue readiness</div><h2 id="prep-title">Prepare the space. We'll bring the energy.</h2><p>A well-prepared venue protects performers, keeps your event running smoothly and gives guests the best possible experience.</p>
 <div class="vp-guides">
