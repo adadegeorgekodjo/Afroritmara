@@ -357,4 +357,68 @@ button,input,select,textarea{font:inherit}
   .terms-main{padding:44px 0 92px}
   .terms-document{width:min(92vw,900px);padding:28px 22px;border-radius:28px 8px 28px 8px}
 }
-<a href="https://nubusinesssolutions.com/web-development/">Get your amazing website designed at Nu Business Solutions</a>
+
+.website-credit {
+  flex: 0 0 100%;
+  width: min(92%, 70rem);
+  margin: 1rem auto 0;
+  padding: 1rem clamp(1rem, 4vw, 2rem);
+  border: 1px solid #d5be9b;
+  border-radius: 12px;
+  background: #fbf7f0;
+  color: #201c18;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+.website-credit-copy {
+  display: grid;
+  gap: .25rem;
+}
+.website-credit-copy strong {
+  font: 1.35rem/1.2 Georgia, serif;
+}
+.website-credit .website-credit-copy span {
+  font-size: .875rem;
+  color: #5e5145;
+}
+.website-credit span::before {
+  content: none;
+}
+.website-credit a {
+  display: inline-flex;
+  align-items: center;
+  gap: .45rem;
+  min-height: 44px;
+  padding: .5rem .85rem;
+  border: 1px solid #a68148;
+  border-radius: 8px;
+  color: #201c18;
+  font-size: .875rem;
+  font-weight: 700;
+  text-decoration: none;
+}
+.website-credit a:hover,
+.website-credit a:focus-visible {
+  background: #f2e8d8;
+  color: #201c18;
+}
+.website-credit a:focus-visible {
+  outline: 2px solid #785926;
+  outline-offset: 3px;
+}
+.website-credit a span {
+  transition: transform .18s ease;
+}
+.website-credit a:hover span,
+.website-credit a:focus-visible span {
+  transform: translateX(4px);
+}
+@media (prefers-reduced-motion: reduce) {
+  .website-credit a span {
+    transition: none;
+    transform: none !important;
+  }
+}
