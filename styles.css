@@ -357,10 +357,4 @@ button,input,select,textarea{font:inherit}
   .terms-main{padding:44px 0 92px}
   .terms-document{width:min(92vw,900px);padding:28px 22px;border-radius:28px 8px 28px 8px}
 }
-git switch main
-git pull --ff-only origin main
-git apply --check "%USERPROFILE%\Downloads\afroritmara-interactive-footer.patch"
-git apply "%USERPROFILE%\Downloads\afroritmara-interactive-footer.patch"
-git add -- index.html international.html hospitality.html events.html private-lessons.html payment.html terms/index.html styles.css
-git commit -m "Add Nu Business Solutions footer to all pages"
-git push origin main
+<a href="https://nubusinesssolutions.com/web-development/">Get your amazing website designed at Nu Business Solutions</a>
